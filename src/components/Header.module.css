@@ -1,0 +1,12 @@
+.header{
+   background-color: #202024;
+   color: #E1E1E6;
+   display: flex;
+   justify-content: center;
+   padding: 1.25rem;
+   
+}
+.header img{
+   height: 2rem;
+   
+}
