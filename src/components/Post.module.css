@@ -93,6 +93,16 @@
 
 }
 
+.commentForm footer{
+  visibility: hidden;
+  max-height:0 ;
+}
+
+.commentForm:focus-within footer{
+  visibility: visible;
+  max-height: none;
+}
+
 .commentForm button{
   
   margin-top: 1rem;
@@ -104,4 +114,9 @@
   cursor: pointer;
   height: 3rem;
   width: 6rem;
+  transition: background-color 0.1s;
+}
+
+.commentForm button:hover{
+  background: var(--green-300);
 }
