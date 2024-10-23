@@ -2,7 +2,6 @@ import { Header } from './components/Header';
 import {Post} from './components/Post'
 import { Sidebar } from './components/Sidebar';
 import styles  from './App.module.css'
-import { Comment } from './components/Comment';
 import './global.css';
 export function App() {
 
@@ -18,7 +17,6 @@ export function App() {
             content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam id temporibus distinctio voluptas quisquam ipsa praesentium nulla excepturi nobis pariatur, ex explicabo magni ratione veritatis recusandae quo cumque! Suscipit, dignissimos."
           />
 
-          <Comment/>
         </main>
       </div>
     </div>
