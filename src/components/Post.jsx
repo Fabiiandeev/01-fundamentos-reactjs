@@ -3,15 +3,14 @@ import { Comment } from './Comment'
 import { Avatar } from './Avatar'
 
 export function Post(props){
-  console.log(props);
   return(
     <article className={styles.Post}>
       <header>
         <div className={styles.author}>
-          <Avatar hasBorder src="https://avatars.githubusercontent.com/u/33097450?v=4"/>
+          <Avatar hasBorder src={props.author.avatarUrl}/>
           <div className={styles.authorInfor}>
-            <strong> Phelipe Fabian </strong>
-            <span>Web Develop</span>
+            <strong> {props.author.name} </strong>
+            <span>{props.author.role}</span>
           </div>
         </div>
         <time title='18 de Outubro às 13:22 h' dateTime="">Publícado há 1h</time>

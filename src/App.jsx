@@ -38,13 +38,13 @@ const posts = [
     },
 
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋,' },
-      { type: 'paragrapy', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat.' },
-      { type: 'paragrapy', content: 'O nome do projeto é DoctorCare 🚀' },
+      { type: 'paragraph', content: 'Fala pessoal 👋' },
+      { type: 'paragrapy', content: 'Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar todo o design e codar na unha, mas consegui 💪🏻 ' },
+      { type: 'paragrapy', content: 'Acesse e deixe seu feedback 👉' },
+      { type: 'link', content: 'jane.design/portfoliosite', },
       { type: 'link', content: 'jane.design/doctorcare', },
-      { type: 'hashtag', content: '#novoprojeto' },
-      { type: 'hashtag', content: '#nlw' },
-      { type: 'hashtag', content: '#rocketseat' },
+      { type: 'hashtag', content: '#uiux' },
+      { type: 'hashtag', content: '#userexperience' },
 
     ],
     publishedAt: new Date('2022-05-10  20:00:00'),
