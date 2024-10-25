@@ -2,15 +2,15 @@ import styles from './Post.module.css'
 import { Comment } from './Comment'
 import { Avatar } from './Avatar'
 
-export function Post(props){
+export function Post({author}){
   return(
     <article className={styles.Post}>
       <header>
         <div className={styles.author}>
-          <Avatar hasBorder src={props.author.avatarUrl}/>
-          <div className={styles.authorInfor}>
-            <strong> {props.author.name} </strong>
-            <span>{props.author.role}</span>
+          <Avatar hasBorder src={author.avatarUrl}/>
+          <div className={authorInfor}>
+            <strong> {author.name} </strong>
+            <span>{author.role}</span>
           </div>
         </div>
         <time title='18 de Outubro às 13:22 h' dateTime="">Publícado há 1h</time>
